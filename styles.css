@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #4b3d3d;
+  color: #ebd8d8;
+  padding: 0 20px;
+}
+/* This is the header of page*/
+header {
+  background-color: #242020;
+  color: #eedfdf(241, 234, 234);
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+header nav a {
+  color: #968181;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1em;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+header nav a:hover {
+  border-color: #ac8e8e;
+  border-radius: 20px;
+  background-color: #d1bfbf;
+}
+/* Section Styling */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #1a1717;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(223, 212, 212, 0.05);
+  margin-bottom: 10px;
+  scroll-margin-top: 80px;
+}
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  color: #333;
+}
+/* it make first <p> make the text-align to center*/
+#about h2 + p {
+  text-align: center;
+}
+/* About Section */
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 3px solid #333;
+  width: 200px;
+  height: 200px;
+}
+.center-image {
+  display: block; /* Make the image a block element */
+  margin: 0 auto; /* Center it horizontally */
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+#projects ul p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  color: #333;
+}
+#skills p {
+  text-align: center;
+}
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
